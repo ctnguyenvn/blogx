@@ -1,0 +1,448 @@
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('/assets/fonts/FiraSans-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.65;
+    font-family: 'Fira Sans',  sans-serif;
+    color: #353535;
+    letter-spacing: 0.015rem;
+}
+
+a {
+    color: #317cdf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d54d23;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: #303030;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 26px 0 15px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    margin-top: 0.25rem;
+    margin-bottom: 0.6rem;
+}
+
+hr {
+    background-color: #ccc;
+    height: 1px;
+    border: none;
+}
+
+table {
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr {
+    border-top: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+table tr:nth-child(2n) {
+    background-color: #fff;
+}
+
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+table tr th :first-child,
+table tr td :first-child {
+    margin-top: 0;
+}
+
+table tr th :last-child,
+table tr td :last-child {
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ul,
+ul ol,
+ul ul,
+ol ol {
+    margin: 0;
+}
+
+ul ul,
+ol ul {
+    list-style-type: circle;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+strong,
+b {
+    font-weight: bold;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+img,
+.center-image {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+    padding: 0;
+}
+
+.emoji {
+    display: unset;
+    margin: 0;
+}
+
+blockquote {
+    border-left: 0.25em solid #dfe2e5;
+    color: #6a737d;
+    padding: 0 1em;
+}
+
+/* custom css for site */
+
+.wrapper {
+    background-color: #969696;
+}
+
+.wrapper .header {
+    background-color: #33363b;
+    height: 3.2rem;
+    line-height: 3;
+    padding: 0 2rem;
+}
+
+.wrapper .header div {
+    max-width: 1320px;
+    margin: 0 auto;
+	padding: 0 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header a {
+    padding-left: 0.5rem;
+    color: #888888;
+}
+
+.topbar {
+    background-color: #33363b;
+    color: #888888;
+    height: 220px;
+    padding: 0 2rem;
+}
+
+.topbar .top {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.top a:hover {
+    text-decoration: none;
+}
+
+.top .site-mono {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 1.5rem;
+}
+
+.top .site-mono a {
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    color: #888888;
+}
+
+.top .site-mono span {
+    font-size: 105%;
+    font-style: italic;
+}
+
+.top .site-menu {
+    background-color: #454e5c;
+}
+
+.site-menu ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.site-menu li {
+    display: inline-table;
+    padding: 0.7rem 1rem;
+}
+
+.site-menu li:hover {
+    background-color: #555e6a;
+}
+
+.site-menu a {
+    color: #c1c1c1;
+}
+
+/* main css for site */
+
+.main {
+    padding: 0 2rem;
+}
+
+.main > div {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: -51px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .sidebar_left {
+    width: 29%;
+    padding: 3rem 0.75rem;
+    font-size: 85%;
+    color: 666;
+}
+
+.main .content {
+    width: 59%;
+    background-color: #fff;
+    padding: 1rem 2.65rem;
+	font-size: 105%;
+	color: #666;
+}
+
+.main .sidebar_right {
+    width: 12%;
+    padding: 2rem 0.5rem;
+}
+
+.sidebar_left .sidebar-post {
+    display: flex;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+	align-items: center;
+}
+
+.sidebar-post .sidebar-post__inner1 {
+    width: 150px;
+    padding: 0.5rem;
+}
+
+.sidebar-post .sidebar-post__inner2 {
+    width: 200px;
+    padding: 0.5rem;
+}
+
+.sidebar-post__inner2 p {
+    line-height: 140%;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+.post article {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.post .post-avt img {
+    width: 100%;
+}
+
+.post .post-title {
+	margin-top: 1.5rem;
+}
+
+.post .post-title a {
+    font-size: 1.85rem;
+    color: #303030;
+	line-height: 140%;
+	font-weight: 600;
+}
+
+.post .post-archive {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+/* footer css */
+
+.footer {
+    background-color: #33363b;
+}
+
+.footer .footer__inner {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #e1e1e1;
+}
+
+.footer a {
+    color: #e6e6e6;
+    padding-right: 1rem;
+}
+
+/*end custom css*/
+
+/* css form contact */
+input[type='text'],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 0.2rem auto;
+    font-size: 17px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type='submit'] {
+    background-color: #e6e6e6;
+    color: #555;
+    font-size: 15px;
+    padding: 6px 7px;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+    margin-top: 0.3rem;
+}
+
+input[type='submit']:hover {
+    background-color: #ccc;
+}
+
+/*Responsive css*/
+
+@media screen and (max-width: 820px) {
+	.main .sidebar_left,
+	.main .sidebar_right{
+		display: none;
+	}
+	.main .content {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+
+	.topbar,
+	.main,
+	.footer {
+		padding: 0 1rem;
+	}
+	.top .site-mono {
+		flex-direction: column;
+	}
+	
+	.top .site-mono a {
+		font-size: 2.5rem;
+	}
+
+	.main .content {
+		padding: 0.5rem 1rem;
+	}
+	.footer .footer__inner {
+		padding: 1rem;
+	}
+}
+
+@media screen and (min-width: 1560px) {
+}
