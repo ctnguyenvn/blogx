@@ -190,14 +190,14 @@ blockquote {
 /* custom css for site */
 
 .wrapper {
-    background-color: #969696;
+    background-color: #9a9a9a;
 }
 
 .wrapper .header {
     background-color: #33363b;
     height: 3.2rem;
     line-height: 3;
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
 .wrapper .header div {
@@ -217,7 +217,7 @@ blockquote {
     background-color: #33363b;
     color: #888888;
     height: 220px;
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
 .topbar .top {
@@ -272,7 +272,7 @@ blockquote {
 /* main css for site */
 
 .main {
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
 .main > div {
@@ -286,14 +286,14 @@ blockquote {
 }
 
 .main .sidebar_left {
-    width: 29%;
+    width: 25%;
     padding: 3rem 0.75rem;
     font-size: 85%;
     color: 666;
 }
 
 .main .content {
-    width: 59%;
+    width: 60%;
     background-color: #fff;
     padding: 1rem 2.65rem;
 	font-size: 105%;
@@ -301,7 +301,7 @@ blockquote {
 }
 
 .main .sidebar_right {
-    width: 12%;
+    width: 15%;
     padding: 2rem 0.5rem;
 }
 
@@ -313,8 +313,8 @@ blockquote {
 }
 
 .sidebar-post .sidebar-post__inner1 {
-    width: 150px;
-    padding: 0.5rem;
+    width: 130px;
+    padding: 0.25rem;
 }
 
 .sidebar-post .sidebar-post__inner2 {
@@ -322,10 +322,21 @@ blockquote {
     padding: 0.5rem;
 }
 
+.sidebar-post__inner2 p:nth-child(1) {
+	font-size: 102%;
+	font-weight: bold;
+}
+
 .sidebar-post__inner2 p {
     line-height: 140%;
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
+	color: #303030;
+	font-size: 85%;
+}
+
+.sidebar-post__inner2 a {
+	color: #333333;
 }
 
 .post article {
@@ -339,14 +350,25 @@ blockquote {
 }
 
 .post .post-title {
-	margin-top: 1.5rem;
-}
-
-.post .post-title a {
     font-size: 1.85rem;
     color: #303030;
 	line-height: 140%;
 	font-weight: 600;
+}
+
+.post .post-title a {
+	color: #303030;
+}
+
+.post .post-date {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 88%;
+}
+
+.post .post-date a {
+	color: #666;
+	font-style: italic;
 }
 
 .post .post-archive {
@@ -363,6 +385,7 @@ blockquote {
 
 .footer {
     background-color: #33363b;
+    padding: 0 4rem;
 }
 
 .footer .footer__inner {
@@ -374,7 +397,7 @@ blockquote {
 
 .footer a {
     color: #e6e6e6;
-    padding-right: 1rem;
+    padding-right: 0.5rem;
 }
 
 /*end custom css*/
@@ -445,4 +468,5 @@ input[type='submit']:hover {
 }
 
 @media screen and (min-width: 1560px) {
+
 }
