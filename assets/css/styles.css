@@ -280,8 +280,8 @@ blockquote {
     margin-top: -51px;
     overflow: hidden;
     background-color: #f0f0f0;
-    display: flex;
-    justify-content: space-between;
+    display: table;
+    clear: both;
 }
 
 .main .sidebar_left {
@@ -289,6 +289,7 @@ blockquote {
     padding: 3rem 0.75rem;
     font-size: 85%;
     color: 666;
+    float: left;
 }
 
 .main .content {
@@ -297,27 +298,30 @@ blockquote {
     padding: 1rem 2.65rem;
     font-size: 105%;
     color: #666;
+    float: left;
 }
 
 .main .sidebar_right {
     width: 15%;
     padding: 2rem 0.5rem;
+    float: left;
 }
 
 .sidebar_left .sidebar-post {
-    display: flex;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     align-items: center;
 }
 
 .sidebar-post .sidebar-post__inner1 {
-    width: 130px;
-    padding: 0.25rem;
+    padding: 0 0.25rem;
+}
+
+.sidebar-post__inner1 img {
+    margin: 0;
 }
 
 .sidebar-post .sidebar-post__inner2 {
-    width: 200px;
     padding: 0.5rem;
 }
 
@@ -327,11 +331,10 @@ blockquote {
 }
 
 .sidebar-post__inner2 p {
-    line-height: 140%;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     color: #303030;
-    font-size: 85%;
+    font-size: 90%;
 }
 
 .sidebar-post__inner2 a {
@@ -434,6 +437,12 @@ input[type='submit']:hover {
 /*Responsive css*/
 
 @media screen and (max-width: 820px) {
+    .wrapper .header,
+    .topbar,
+    .main,
+    .footer {
+        padding: 0 2rem;
+    }
     .main .sidebar_left,
     .main .sidebar_right {
         display: none;
@@ -472,4 +481,7 @@ input[type='submit']:hover {
     .footer .footer__inner {
         max-width: 1520px;
     }
+	.main .content {
+		width: 55%;
+	}
 }
