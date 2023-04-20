@@ -447,6 +447,9 @@ input[type='submit']:hover {
     .main .sidebar_right {
         display: none;
     }
+	.main > div {
+		display: block;
+	}
     .main .content {
         width: 100%;
     }
