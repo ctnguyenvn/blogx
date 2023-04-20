@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.65;
     font-family: 'Fira Sans', sans-serif;
     color: #353535;
@@ -287,7 +287,6 @@ blockquote {
 .main .sidebar_left {
     width: 27%;
     padding: 3rem 0.75rem;
-    font-size: 85%;
     color: 666;
     float: left;
 }
@@ -326,7 +325,7 @@ blockquote {
 }
 
 .sidebar-post__inner2 p:nth-child(1) {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -334,7 +333,7 @@ blockquote {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     color: #303030;
-    font-size: 95%;
+    font-size: 96%;
 }
 
 .sidebar-post__inner2 a {
@@ -479,7 +478,7 @@ input[type='submit']:hover {
 
 @media screen and (min-width: 1560px) {
 	body {
-		font-size: 18px;
+		font-size: 20px;
 	}
     .wrapper .header div,
     .topbar .top,
