@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.65;
     font-family: 'Fira Sans', sans-serif;
     color: #353535;
@@ -475,6 +475,9 @@ input[type='submit']:hover {
 }
 
 @media screen and (min-width: 1560px) {
+	body {
+		font-size: 18px;
+	}
     .wrapper .header div,
     .topbar .top,
     .main > div,
