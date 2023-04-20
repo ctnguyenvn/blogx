@@ -285,7 +285,7 @@ blockquote {
 }
 
 .main .sidebar_left {
-    width: 25%;
+    width: 27%;
     padding: 3rem 0.75rem;
     font-size: 85%;
     color: 666;
@@ -293,7 +293,7 @@ blockquote {
 }
 
 .main .content {
-    width: 60%;
+    width: 58%;
     background-color: #fff;
     padding: 1rem 2.65rem;
     font-size: 105%;
@@ -314,7 +314,7 @@ blockquote {
 }
 
 .sidebar-post .sidebar-post__inner1 {
-    padding: 0 0.25rem;
+    padding: 0 0.5rem;
 }
 
 .sidebar-post__inner1 img {
@@ -326,7 +326,7 @@ blockquote {
 }
 
 .sidebar-post__inner2 p:nth-child(1) {
-    font-size: 110%;
+    font-size: 1.15rem;
     font-weight: bold;
 }
 
@@ -334,7 +334,7 @@ blockquote {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     color: #303030;
-    font-size: 90%;
+    font-size: 95%;
 }
 
 .sidebar-post__inner2 a {
