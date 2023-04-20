@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.65;
     font-family: 'Fira Sans', sans-serif;
     color: #353535;
@@ -333,7 +333,7 @@ blockquote {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     color: #303030;
-    font-size: 96%;
+    font-size: 95%;
 }
 
 .sidebar-post__inner2 a {
