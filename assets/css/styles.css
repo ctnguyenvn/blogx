@@ -215,7 +215,7 @@ blockquote {
 .topbar {
     background-color: #33363b;
     color: #888888;
-    height: 200px;
+    height: 165px;
 }
 
 .topbar .top {
@@ -230,7 +230,6 @@ blockquote {
 .top .site-mono {
     display: flex;
     align-items: baseline;
-    padding-bottom: 1.5rem;
 }
 
 .top .site-mono a {
@@ -268,15 +267,10 @@ blockquote {
 }
 
 /* main css for site */
-
-.main {
-    padding: 0 4rem;
-}
-
 .main > div {
     max-width: 1320px;
     margin: 0 auto;
-    margin-top: -80px;
+    margin-top: -50px;
     overflow: hidden;
     background-color: #f0f0f0;
     display: table;
@@ -293,7 +287,7 @@ blockquote {
 .main .content {
     width: 58%;
     background-color: #fff;
-    padding: 1rem 2.65rem;
+    padding: 2rem 2.75rem;
     font-size: 105%;
     color: #666;
     float: left;
@@ -339,8 +333,11 @@ blockquote {
     color: #333333;
 }
 
+.post {
+	padding: 1rem 0;
+}
+
 .post article {
-    padding-top: 1rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid #ccc;
 }
@@ -477,7 +474,7 @@ input[type='submit']:hover {
 
 @media screen and (min-width: 1560px) {
 	body {
-		font-size: 20px;
+		font-size: 21px;
 	}
     .wrapper .header div,
     .topbar .top,
