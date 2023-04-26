@@ -215,8 +215,7 @@ blockquote {
 .topbar {
     background-color: #33363b;
     color: #888888;
-    height: 220px;
-    padding: 0 4rem;
+    height: 200px;
 }
 
 .topbar .top {
@@ -257,7 +256,7 @@ blockquote {
 
 .site-menu li {
     display: inline-table;
-    padding: 0.6rem 1rem;
+    padding: 0.7rem 1rem;
 }
 
 .site-menu li:hover {
@@ -277,7 +276,7 @@ blockquote {
 .main > div {
     max-width: 1320px;
     margin: 0 auto;
-    margin-top: -51px;
+    margin-top: -80px;
     overflow: hidden;
     background-color: #f0f0f0;
     display: table;
