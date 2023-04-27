@@ -200,7 +200,7 @@ blockquote {
 }
 
 .wrapper .header div {
-    max-width: 1320px;
+    max-width: 1220px;
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
@@ -219,7 +219,7 @@ blockquote {
 }
 
 .topbar .top {
-    max-width: 1320px;
+    max-width: 1220px;
     margin: 0 auto;
 }
 
@@ -230,6 +230,7 @@ blockquote {
 .top .site-mono {
     display: flex;
     align-items: baseline;
+	padding: 0 1rem;
 }
 
 .top .site-mono a {
@@ -268,7 +269,7 @@ blockquote {
 
 /* main css for site */
 .main > div {
-    max-width: 1320px;
+    max-width: 1220px;
     margin: 0 auto;
     margin-top: -50px;
     overflow: hidden;
@@ -278,8 +279,8 @@ blockquote {
 }
 
 .main .sidebar_left {
-    width: 27%;
-    padding: 3rem 0.75rem;
+    width: 28%;
+    padding: 3rem 1.5rem;
     color: 666;
     float: left;
 }
@@ -333,10 +334,6 @@ blockquote {
     color: #333333;
 }
 
-.post {
-	padding: 1rem 0;
-}
-
 .post article {
     padding-bottom: 1.5rem;
     border-bottom: 1px solid #ccc;
@@ -351,6 +348,7 @@ blockquote {
     color: #303030;
     line-height: 140%;
     font-weight: 600;
+	padding-top: 1rem;
 }
 
 .post .post-title a {
@@ -386,9 +384,9 @@ blockquote {
 }
 
 .footer .footer__inner {
-    max-width: 1320px;
+    max-width: 1220px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem 1rem;
     color: #e1e1e1;
 }
 
@@ -456,8 +454,10 @@ input[type='submit']:hover {
     .footer {
         padding: 0 1rem;
     }
+
     .top .site-mono {
         flex-direction: column;
+		padding: 0;
     }
 
     .top .site-mono a {
@@ -467,8 +467,9 @@ input[type='submit']:hover {
     .main .content {
         padding: 0.5rem 1rem;
     }
+
     .footer .footer__inner {
-        padding: 1rem;
+        padding: 1rem 0;
     }
 }
 
